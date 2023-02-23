@@ -14,6 +14,7 @@ public class Selenium {
         driver.findElement(By.id("lastName")).sendKeys("Thapa");
         driver.findElement(By.id("emailId")).sendKeys("junu@gmail.com");
         driver.findElement(By.xpath("/html/body/app-root/div/app-create-employee/div/form/button")).click();
+        driver.quit();
 
     }
 }
